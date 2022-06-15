@@ -1,3 +1,2 @@
-bar
-foo
+aj
 java
