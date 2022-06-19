@@ -1,0 +1,27 @@
+package chap01;
+
+import java.util.Scanner;
+
+public class sumFor {
+	/*반복
+		-2.for문 : 하나의 변수를 사용하는 반복문은 while문보다 for문을 사용하는게 좋다
+			-> for(초기화 ; 제어식 ; 업데이트 부분) 명령문
+	 */
+
+	//1부터 n까지의 정수 합 구하기 
+	//Q. 1,2, ... n의 합을 구합니다
+
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+		int n;
+		int sum=0;
+		System.out.println("1부터 n까지의 합 구하기");
+		System.out.println("n의 값 : ");
+		n = input.nextInt();
+
+		for(int i =1; i<=n; i++) {
+			sum += i;
+		}
+		System.out.println("1부터 " + n + "까지의 합은 " +sum +"입니다");
+	}
+}
