@@ -1,0 +1,11 @@
+package chap02;
+//배열 요소의 최댓값 나타내기(값을 입력 받는다)
+public class MaxOfAraay {
+
+	public static void main(String[] args) {
+		System.out.println("키의 최댓값을 구합니다");
+		System.out.println("사람 수 : " );
+
+	}
+
+}
