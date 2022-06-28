@@ -13,7 +13,7 @@ public class ReverseArray {
 	
 	//바꾼 배열 a의 요소를 역순으로 정렬한다
 	static void reverse(int[] a) {
-		for(int i =0;i<a.length/2;i++) {
+		for(int i =0;i<a.length/2;i++) { //교환횟수는 요소개수/2, 나머지는 버린다(홀수인경우 가운데 요소는 교환할 필요가 없기 때문)
 			swap(a, i, a.length -i -1);
 		}
 	}
