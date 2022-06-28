@@ -15,15 +15,15 @@ public class ReverseArray_Q2 {
 	static void print(int[] a ) {
 		for(int i =0; i<a.length;i++) {
 			System.out.print(a[i] + " ");
-			System.out.println();
 		}
+		System.out.println();
 	}
 
 	//배열 a의 요소를 역순으로 정렬
 	static void reverse(int[] a) {
 		print(a);
 		for(int i =0; i<a.length/2;i++) {
-			System.out.println("a[" +i +"]와 " +(a.length-i-1)+"]를 교환");
+			System.out.println("a[" +i +"]와 [" +(a.length-i-1)+"]를 교환");
 			swap(a, i, a.length-i-1);
 			print(a);
 		}
